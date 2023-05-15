@@ -197,7 +197,7 @@ Copies of the ml pipe notebooks are saved in `local_data/` automatically when ex
 
 For the API, there are now two different ways to log structured data. Standard logger provides an easy way to transfer structured data to sqlite. From a structured format it is easy to load data back to a dataframe from the log database. Structlog offers a convenient way to persist structured data as json.
 
-## Monitoring
+## Monitoring 
 
 The `compose.yml` file and `monitoring/` folder contain a simple example configuration for monitoring with [Prometheus](https://prometheus.io/docs/introduction/overview/). The container will launch a local Prometheus instance by default. 
 
