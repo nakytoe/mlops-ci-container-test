@@ -1,0 +1,11 @@
+repos:
+- repo: https://github.com/fastai/nbdev
+  rev: 2.2.10
+  hooks:
+  - id: nbdev_clean
+  - id: nbdev_export
+- repo: https://github.com/psf/black
+  rev: 23.3.0
+  hooks:
+    - id: black-jupyter
+      language_version: python3.10.6

@@ -1,0 +1,9 @@
+# requirements for the dev environment excluding ML
+nbdev
+pre-commit
+black[jupyter]
+ipykernel
+jupyterlab
+papermill
+pip-tools
+

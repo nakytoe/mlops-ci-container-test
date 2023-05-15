@@ -1,0 +1,7 @@
+# ML, data processing and other generic requirements
+numpy
+matplotlib
+pandas
+scikit-learn
+scipy
+seaborn
